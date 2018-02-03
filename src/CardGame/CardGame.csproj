@@ -47,6 +47,7 @@
     <Compile Include="CardShape.cs" />
     <Compile Include="ICardGame.cs" />
     <Compile Include="ICardPlayer.cs" />
+    <Compile Include="IPlayer.cs" />
     <Compile Include="ISnapGame.cs" />
     <Compile Include="ISnapPlayer.cs" />
     <Compile Include="ListHelper.cs" />
