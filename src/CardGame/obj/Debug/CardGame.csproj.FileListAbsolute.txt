@@ -1,5 +1,0 @@
-D:\Dev\CardGame\src\CardGame\bin\Debug\CardGame.dll
-D:\Dev\CardGame\src\CardGame\bin\Debug\CardGame.pdb
-D:\Dev\CardGame\src\CardGame\obj\Debug\CardGame.csprojResolveAssemblyReference.cache
-D:\Dev\CardGame\src\CardGame\obj\Debug\CardGame.dll
-D:\Dev\CardGame\src\CardGame\obj\Debug\CardGame.pdb
