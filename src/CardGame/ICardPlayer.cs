@@ -5,11 +5,10 @@ namespace CardGame
     /// <summary>
     /// <see cref="CardGame"/> SnapPlayer
     /// </summary>
-    public interface ICardPlayer
+    public interface ICardPlayer: IPlayer
     {
         List<Card> Cards { get; }
 
-        string Name { get; }
         Card Play();
         /// <summary>
         /// When game start, player takes a set of <see cref="Card"/>s 

@@ -11,11 +11,11 @@ namespace CardGame.Tests
         public void WhenSnapStart_ShouldGenerateCards()
         {
             var snap = new SnapGame();
-            var player = Substitute.For<ISnapPlayer>();
+            var player = new SnapPlayer("p1");
 
             snap.Start(player);
 
-            Assert.That(snap.Cards.Count, Is.EqualTo(52));
+            Assert.That(player.Cards.Count, Is.EqualTo(52));
         }
 
 
